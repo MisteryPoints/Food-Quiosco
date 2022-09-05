@@ -1,7 +1,7 @@
 import { useEffect, useCallback } from "react"
 import useQuiosco from "../hooks/useQuiosco"
 import { formatearDinero } from "../helpers"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 
 
 export default function Total() {
