@@ -1,7 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-}
+module.exports = {
+  webpack: (config, { isServer }) => {
 
-module.exports = nextConfig
+    if (!isServer) {
+      config.target = 'electron-renderer';
+      config.node = {
+        __dirname: true,
+      }
+    }
+    return config;
+  },
+}
