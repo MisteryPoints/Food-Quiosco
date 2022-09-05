@@ -1,5 +1,5 @@
 import useQuiosco from '../hooks/useQuiosco'
-import Layout from '../layout/layout' 
+import Layout from '../components/layout' 
 import Producto from '../components/Producto'
 
 export default function Home() { 

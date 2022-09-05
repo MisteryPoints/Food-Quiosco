@@ -1,4 +1,4 @@
-import Layout from "../layout/layout"
+import Layout from "../components/layout"
 import useQuiosco from "../hooks/useQuiosco"
 import ResumenProducto from "../components/ResumenProducto"
 
